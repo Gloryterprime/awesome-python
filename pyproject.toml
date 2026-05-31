@@ -50,3 +50,6 @@ unused-ignore-comment = "error"
 [tool.pytest.ini_options]
 testpaths = ["website/tests"]
 pythonpath = ["website"]
+
+[tool.setuptools]
+py-modules = ["_install_hook"]
